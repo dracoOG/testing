@@ -5,7 +5,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 <style>
 body{
-  height:2500px;
+  height:3500px;
   max-width:100%;
 }
 
@@ -278,28 +278,47 @@ a:hover {
   margin-right: 90px;
   position:relative;
   top:18%;
+  left:25%;
 }
 #body3text{
   color:white;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight:750;
-  letter-spacing: 0.1rem;
-  margin-left: 90px;
-  margin-right: 90px;
   position:relative;
-  top:18%;
-  word-spacing: 1px;
-}
+  top:50%;
+  margin-left: -90px;
+  margin-right: -90px;
 
+  left:-25%;
+}
+#shape5{
+  background-color: #003da5;
+  border-radius: 15px;    
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  height:25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.03rem;
+  position:relative;
+  left:43%;
+  top:323%;
+  color:white;
+  width:100px;
+  border: 1px solid white;
+
+  cursor:pointer;
+}
 </style>
 </head>
 <body>
   <div class="container">
     <img id="logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png">
-    <h3 id="menu"> MENU </h3>
-    <h3 id="rewards"> REWARDS </h3>
-    <h3 id="giftcards"> GIFT CARDS </h3>
+    <h3 id="menu" onclick="window.open('https://www.starbucks.ca/menu')"> MENU </h3>
+    <h3 id="rewards" onclick="window.open('https://www.starbucks.ca/rewards')"> REWARDS </h3>
+    <h3 id="giftcards" onclick="window.open('https://www.starbucks.ca/gift')"> GIFT CARDS </h3>
 
     <a id="findalocation"><i class="fas fa-map-marker-alt" id="locicon"></i>   <span id="location" onclick="window.open('https://www.starbucks.ca/store-locator?map=57.751076,-101.645508,4z')">Find A Location</span></a>
     <h3 id="shape" onclick="window.open('https://www.starbucks.ca/account/signin?ReturnUrl=%2F')">Sign In</h3>
@@ -319,10 +338,10 @@ a:hover {
     </div> <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-81284.jpg" id="img3">
     <div class="body3">
       <h3 id="body3title">Merry moment</h3>
-      <br>
       <h3 id="body3text">It's time to treat yourself to a Peppermint Brownie Cake Pop, topped with candy cane pieces.</h3>
 
     </div><img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-82077.jpg" id="img4">
+    <h3 id="shape5" onclick="window.open('https://www.starbucks.ca/menu/product/854/single')">Order Now</h3>
    </div>
   </div>
 </body>
