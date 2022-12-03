@@ -190,8 +190,8 @@ a:hover {
 
 #body2{
   width:750px;
-  height:550px;
-  background-color: #003da5;
+  height:625px;
+  background-color: #d50032;
   left:-100%;
   top:105%;
   position: absolute;
@@ -202,10 +202,52 @@ a:hover {
 #img3{
   width:700px;
   position:absolute;
-  height:550px;
+  height:625px;
   left:0%;
   top:105%;
   display:flex;
+}
+#body2title{
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  font-weight:750;
+  letter-spacing: 0.1rem;
+  margin-left: 90px;
+  margin-right: 90px;
+  position:relative;
+  top:18%;
+}
+#body2text{
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight:750;
+  letter-spacing: 0.1rem;
+  margin-left: 90px;
+  margin-right: 90px;
+  position:relative;
+  top:18%;
+  word-spacing: 1px;
+}
+#shape4{
+  background-color:#d50032;
+  border-radius: 15px;    
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  height:25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.03rem;
+  position:relative;
+  left:40%;
+  top:20%;
+  color:white;
+  width:100px;
+  border: 1px solid white;
+
+  cursor:pointer;
 }
 </style>
 </head>
@@ -227,7 +269,11 @@ a:hover {
     <p id="inbodytext2">Get your holiday favourites sooner! Join Starbucks Rewards and link your account with an eligible TD Card to start earning more Stars on eligible purchases. Conditions Apply.</p>
     <h3 id="learnnowbtn" onclick="window.open('https://www.td.com/ca/en/personal-banking/products/credit-cards/starbucks/?cm_sp=sbuxapp-tdholiday/')">Learn Now</h3>
     <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-82075.jpg" id="img2">
-    <div id="body2"></div> <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-82184.jpg" id="img3">
+    <div id="body2"> 
+      <h3 id="body2title">Holiday cheer is here</h3>
+      <h3 id="body2text">Bring on the merry with a Peppermint Mocha, Iced Sugar Cookie Oat Latte or Caramel Brûlé Latte.</h3>
+      <h3 id="shape4" onclick="window.open('https://www.starbucks.ca/menu/featured/')">Learn More</h3>
+    </div> <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-81284.jpg" id="img3">
    </div>
   </div>
 </body>
