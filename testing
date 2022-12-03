@@ -5,7 +5,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 <style>
 body{
-  height:1500px;
+  height:2500px;
   max-width:100%;
 }
 
@@ -249,6 +249,49 @@ a:hover {
 
   cursor:pointer;
 }
+.body3{
+  width:700px;
+  height:625px;
+  background-color: #003da5;
+  top:134%;
+  left:50%;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+
+}
+#img4{
+  width:700px;
+  position:absolute;
+  height:625px;
+  left:13.5%;
+  top:134%;
+  display:flex;
+}
+#body3title{
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  font-weight:750;
+  letter-spacing: 0.1rem;
+  margin-left: 90px;
+  margin-right: 90px;
+  position:relative;
+  top:18%;
+}
+#body3text{
+  color:white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight:750;
+  letter-spacing: 0.1rem;
+  margin-left: 90px;
+  margin-right: 90px;
+  position:relative;
+  top:18%;
+  word-spacing: 1px;
+}
+
 </style>
 </head>
 <body>
@@ -258,7 +301,7 @@ a:hover {
     <h3 id="rewards"> REWARDS </h3>
     <h3 id="giftcards"> GIFT CARDS </h3>
 
-    <a id="findalocation"><i class="fas fa-map-marker-alt" id="locicon"></i>   <span id="location">Find A Location</span></a>
+    <a id="findalocation"><i class="fas fa-map-marker-alt" id="locicon"></i>   <span id="location" onclick="window.open('https://www.starbucks.ca/store-locator?map=57.751076,-101.645508,4z')">Find A Location</span></a>
     <h3 id="shape" onclick="window.open('https://www.starbucks.ca/account/signin?ReturnUrl=%2F')">Sign In</h3>
     <h3 id="shape2" onclick="window.open('https://www.starbucks.ca/account/create')">Join Now</h3>
   </div>
@@ -275,6 +318,12 @@ a:hover {
       <h3 id="shape4" onclick="window.open('https://www.starbucks.ca/menu/featured/')">Learn More</h3>
     </div> <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-81284.jpg" id="img3">
    </div>
+    <div class="body3">
+      <h3 id="body3title">Merry moment</h3>
+      <br>
+      <h3 id="body3text">It's time to treat yourself to a Peppermint Brownie Cake Pop, topped with candy cane pieces.</h3>
+
+    </div><img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-82077.jpg" id="img4">
   </div>
 </body>
 </html>
