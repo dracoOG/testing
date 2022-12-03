@@ -253,8 +253,8 @@ a:hover {
   width:700px;
   height:625px;
   background-color: #003da5;
-  top:134%;
-  left:50%;
+  top:249%;
+  left:0%;
   position: absolute;
   justify-content: center;
   display: flex;
@@ -264,8 +264,8 @@ a:hover {
   width:700px;
   position:absolute;
   height:625px;
-  left:13.5%;
-  top:134%;
+  left:-100%;
+  top:249%;
   display:flex;
 }
 #body3title{
@@ -317,13 +317,13 @@ a:hover {
       <h3 id="body2text">Bring on the merry with a Peppermint Mocha, Iced Sugar Cookie Oat Latte or Caramel Brûlé Latte.</h3>
       <h3 id="shape4" onclick="window.open('https://www.starbucks.ca/menu/featured/')">Learn More</h3>
     </div> <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-81284.jpg" id="img3">
-   </div>
     <div class="body3">
       <h3 id="body3title">Merry moment</h3>
       <br>
       <h3 id="body3text">It's time to treat yourself to a Peppermint Brownie Cake Pop, topped with candy cane pieces.</h3>
 
     </div><img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-82077.jpg" id="img4">
+   </div>
   </div>
 </body>
 </html>
