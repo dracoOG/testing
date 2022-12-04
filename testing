@@ -5,7 +5,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 <style>
 body{
-  height:3500px;
+  height:2800px;
   max-width:100%;
 }
 
@@ -101,8 +101,8 @@ a:hover {
   padding-top: 3px;
   height:25px;
   border: 1px solid black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
   letter-spacing: 0.03rem;
   position:relative;
   left:25%;
@@ -118,7 +118,7 @@ a:hover {
   padding-right: 10px;
   padding-top: 3px;
   height:25px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 15px;
   letter-spacing: 0.03rem;
   position:relative;
@@ -262,8 +262,8 @@ a:hover {
 }
 #img4{
   width:700px;
-  position:absolute;
   height:625px;
+  position:absolute;
   left:-100%;
   top:249%;
   display:flex;
@@ -311,6 +311,117 @@ a:hover {
 
   cursor:pointer;
 }
+
+#img5{
+  width:700px;
+  height:625px;
+  position:absolute;
+  left:0%;
+}
+
+.body4{   
+  width:1400px;   
+  height:625px;   
+  background-color: #1e3932;   
+  top:353%;   left:-100%;   
+  position: relative;   
+  justify-content: center;   
+  align-items: center;   
+  display:flex; 
+}
+#body4title{
+  position:absolute;
+  left:56%;
+  top:20%;
+  font-size: 50px;
+  font-weight:750;
+  letter-spacing: 0.1rem;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:550;
+}
+#body4text{
+  position:absolute;
+  left:45%;
+  top:40%;
+  font-size: 25px;
+  font-weight:750;
+  letter-spacing: 0.1rem;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight:550;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+#playnow{
+  background-color:#1e3932;
+  border-radius: 15px;    
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  height:25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.03rem;
+  position:relative;
+  left:21%;
+  top:21%;
+  color:white;
+  width:100px;
+  cursor:pointer;
+  border: 1px solid white;
+}
+.container2{
+  width:101.2%;
+  height:220px;
+  background-color: white;
+  top:2000px;
+  left:-0.8%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  border-radius: 0.12455%;
+  box-shadow: 0 0.5px 4px grey;
+}
+#abstr{
+  font-size: 20px;
+  letter-spacing: 0.03rem;
+  position:relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+  left:-25%;
+  top:-35%;
+}
+#list1{
+  font-size: 15px;
+  letter-spacing: 0.03rem;
+  position:relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+  left:-33%;
+  top:-5%;
+  margin: 10px 0;
+}
+#careers{
+  font-size: 20px;
+  letter-spacing: 0.03rem;
+  position:relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+  left:-25%;
+  top:-35%;
+}
+#list2{
+  font-size: 15px;
+  letter-spacing: 0.03rem;
+  position:relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 550;
+  left:-33%;
+  top:-5%;
+  margin: 10px 0;
+}
 </style>
 </head>
 <body>
@@ -342,6 +453,31 @@ a:hover {
 
     </div><img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-82077.jpg" id="img4">
     <h3 id="shape5" onclick="window.open('https://www.starbucks.ca/menu/product/854/single')">Order Now</h3>
+
+    <div class="body4">
+       <img src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-82266.png" id="img5"> 
+       <h3 id="body4title"> Starbucks for Life </h3>
+       <h3 id="body4text"> Everyone's favourite holiday game is back. Play for your chance to win free drinks, gift cards and more. *</h3>
+       <h3 id="playnow" onclick="window.open('https://www.td.com/ca/en/personal-banking/products/credit-cards/starbucks/?cm_sp=sbuxapp-tdholiday/')">Play Now</h3>
+    </div>
+   </div>
+   <div class="container2">
+    <h2 id="abstr">About Starbucks</h2>
+    <ol type="i" id="list1">
+      <li>Our Company</li>
+      <li>Our Coffee</li>
+      <li>Stories and News</li>
+      <li>Investors Relations</li>
+      <li>Cusotmer Service</li>
+    </ol>  
+    <h2 id="careers">Careers</h2>
+    <ul id="list2">
+      <li>Cultures And Values</li>
+      <li>Diversity and Inclusion</li>
+      <li>Work At Starbucks</li>
+      <li>Corporate Careers</li>
+      <li>Retail Careers</li>
+    </ul>  
    </div>
   </div>
 </body>
